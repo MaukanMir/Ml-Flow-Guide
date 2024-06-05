@@ -46,7 +46,7 @@ if __name__ == "__main__":
     alpha = args.alpha
     l1_ratio = args.l1_ratio
     
-    mlflow.set_tracking_uri(uri="./myracks")
+    mlflow.set_tracking_uri(uri="file:/Users/maukanmir/Documents/Machine-Learning/ML-OPS-Projects/ML-FLOW-Guide/test1")
     print(f"The set Tracking URI is: {mlflow.get_tracking_uri()}")
     exp = mlflow.set_experiment(experiment_name="exp_for_ui")
 
