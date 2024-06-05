@@ -31,7 +31,7 @@ if __name__ == "__main__":
     np.random.seed(40)
 
     # Read the wine-quality csv file from local
-    data = pd.read_csv("red-wine-quality.csv")
+    data = pd.read_csv("/Users/maukanmir/Downloads/red-wine-quality.csv")
     data.to_csv("data/red-wine-quality.csv", index=False)
 
     # Split the data into training and test sets. (0.75, 0.25) split.
@@ -65,3 +65,4 @@ if __name__ == "__main__":
         mlflow.log_metric("rmse", rmse)
         mlflow.log_metric("r2", r2)
         mlflow.log_metric("mae", mae)
+        mlflow.sklearn.log_model(lr, "my model")

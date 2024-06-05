@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/maukanmir/Documents/Machine-Learning/ML-OPS-Projects/ML-FLOW-Guide/mlruns/966888772639405679/97bcdc15695346509ac191fe4899b21b/artifacts
+end_time: 1717611279909
+entry_point_name: ''
+experiment_id: '966888772639405679'
+lifecycle_stage: active
+run_id: 97bcdc15695346509ac191fe4899b21b
+run_name: vaunted-quail-429
+run_uuid: 97bcdc15695346509ac191fe4899b21b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717611278577
+status: 3
+tags: []
+user_id: maukanmir
