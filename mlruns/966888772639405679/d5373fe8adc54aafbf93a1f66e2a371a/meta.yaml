@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/maukanmir/Documents/Machine-Learning/ML-OPS-Projects/ML-FLOW-Guide/mlruns/966888772639405679/d5373fe8adc54aafbf93a1f66e2a371a/artifacts
+end_time: 1717616109470
+entry_point_name: ''
+experiment_id: '966888772639405679'
+lifecycle_stage: active
+run_id: d5373fe8adc54aafbf93a1f66e2a371a
+run_name: rare-koi-530
+run_uuid: d5373fe8adc54aafbf93a1f66e2a371a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717616108265
+status: 3
+tags: []
+user_id: maukanmir
