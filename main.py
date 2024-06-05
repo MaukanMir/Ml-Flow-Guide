@@ -62,7 +62,7 @@ if __name__ == "__main__":
     print("Lifecycle_stage: {}".format(exp.lifecycle_stage))
     print("Creation timestamp: {}".format(exp.creation_time))
     
-    with mlflow.start_run(experiment_id=exp.experiment_id):
+    with mlflow.start_run(run_id="627e2942862c44c68425aad5ebb5eacf"):
         lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=42)
         lr.fit(train_x, train_y)
 

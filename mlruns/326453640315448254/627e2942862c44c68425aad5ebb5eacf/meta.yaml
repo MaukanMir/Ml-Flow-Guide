@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/maukanmir/Documents/Machine-Learning/ML-OPS-Projects/ML-FLOW-Guide/mlruns/326453640315448254/627e2942862c44c68425aad5ebb5eacf/artifacts
+end_time: 1717622867715
+entry_point_name: ''
+experiment_id: '326453640315448254'
+lifecycle_stage: active
+run_id: 627e2942862c44c68425aad5ebb5eacf
+run_name: run_1
+run_uuid: 627e2942862c44c68425aad5ebb5eacf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717622694033
+status: 3
+tags: []
+user_id: maukanmir
