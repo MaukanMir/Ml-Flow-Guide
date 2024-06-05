@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/maukanmir/Documents/Machine-Learning/ML-OPS-Projects/ML-FLOW-Guide/mlruns/326453640315448254/a8de262b31ac4eecb3b22aaaf9a17b36/artifacts
+end_time: 1717620455243
+entry_point_name: ''
+experiment_id: '326453640315448254'
+lifecycle_stage: active
+run_id: a8de262b31ac4eecb3b22aaaf9a17b36
+run_name: stylish-boar-481
+run_uuid: a8de262b31ac4eecb3b22aaaf9a17b36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717620454022
+status: 3
+tags: []
+user_id: maukanmir
