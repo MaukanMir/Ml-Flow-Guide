@@ -9,6 +9,8 @@ from sklearn.linear_model import ElasticNet
 import mlflow
 import mlflow.sklearn
 
+from pathlib import Path
+
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
 
@@ -48,7 +50,11 @@ if __name__ == "__main__":
     
     mlflow.set_tracking_uri(uri="")
     print("The set Tracking URI is:", mlflow.get_tracking_uri())
-    exp_id = mlflow.create_experiment(name="exp_created_exp", tags={"version":"v1", "priority":"p1"})
+    exp_id = mlflow.create_experiment(
+      name="exp_created_exp_artifact", 
+      tags={"version":"v1", "priority":"p1"},
+      artifact_location=Path.cwd().joinpath("myartifacts").as_uri()
+      )
     get_exp = mlflow.get_experiment(exp_id)
     
     print("Name: {}".format(get_exp.name))
